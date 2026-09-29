@@ -17,9 +17,15 @@ Embeddings run through ONNX Runtime, preferring the QNN execution provider (NPU)
 Models come from Qualcomm AI Hub / open-source platforms.
 
 ## Benchmarks
-| Device | Backend | Latency | Tokens/sec |
+Run `python benchmark.py` (default backend) and `python benchmark.py cpu` on the target
+Snapdragon-powered HP PC. Each run prints a row for the table below.
+
+| Device | Backend | Embedding latency | LLM speed |
 |---|---|---|---|
-| (fill with your measured results) | NPU / CPU | | |
+| Snapdragon HP PC | NPU (QNN) | Pending measurement | Pending measurement |
+| Snapdragon HP PC | CPU | Pending measurement | Pending measurement |
+
+Status: numbers are not yet measured. They will be added after testing on a Snapdragon device.
 
 ## Roadmap
 Indian-language support, voice input, OCR for scanned notes.
