@@ -1,0 +1,6 @@
+streamlit
+pypdf
+numpy
+fastembed
+llama-cpp-python
+onnxruntime
